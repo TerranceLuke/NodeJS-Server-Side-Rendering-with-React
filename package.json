@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-server-side-rendering-with-react",
+  "version": "1.0.0",
+  "description": "Node server side rendering with React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerranceLuke/NodeJS-Server-Side-Rendering-with-React.git"
+  },
+  "author": "Terrance Luke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TerranceLuke/NodeJS-Server-Side-Rendering-with-React/issues"
+  },
+  "homepage": "https://github.com/TerranceLuke/NodeJS-Server-Side-Rendering-with-React#readme"
+}
