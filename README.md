@@ -1,2 +1,2 @@
 # NodeJS-Server-Side-Rendering-with-React
-Server Side Rendeer With React Demo
+Server Side Render With React Demo
