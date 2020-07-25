@@ -1,4 +1,7 @@
 import React from "react";
+import "../src/styles/index.module.scss";
+import Layout from "../src/components/Layout";
+import Header from "../src/components/header";
 
 export default class Index extends React.Component{
     
@@ -19,7 +22,7 @@ export default class Index extends React.Component{
         });
     }
 
-    intitialElement = () => <h1 className="time" style={{color: "orange"}}>The current time is: {this.state.time}</h1>
+    // intitialElement = () => <h1 className={Styles.time}>The current time is: {this.state.time}</h1>
 
     componentDidMount()
     {
@@ -33,9 +36,11 @@ export default class Index extends React.Component{
 
     render() {
         return(
-            <>
-                {this.intitialElement()}
-            </>
+            <Layout>
+                <Header title="My Title" time={""}/>
+                {/* {this.intitialElement()} */}
+                <h1 className="">The current time is: {this.state.time}</h1>
+            </Layout>
         )
     }
 };
